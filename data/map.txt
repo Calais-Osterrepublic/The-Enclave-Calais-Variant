@@ -5534,3 +5534,6 @@ planet Ziv'rahk'ashgrir
 	outfitter "Kaltheim Advanced"
 	"required reputation" 500
 
+planet "Enclave Wormhole"
+
+planet "Ascendancy Wormhole"
