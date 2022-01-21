@@ -23,11 +23,11 @@ outfit "Engine Destabiliser"
 		"firing heat" 2.0
 		"shield damage" 2.3
 		"hull damage" 1.9
-		"slowing damage" -20
+		"slowing damage" 20 # -20 doesn't work anymore.
 		"hit force" 30
 	description "Kaltheim ships have frequently had problems with preventing enemy ships from jumping into hyperspace; while Phase Missiles are somewhat effective, they are also rather expensive and can be foiled by anti-missile systems."
 	description "	As a result, the Engine Destabiliser was built, designed to mess with the output of the target's engines, making their main thrusters and steering ineffective for a time."
-	description "	The Destabiliser also has the side effect of the target ship being thrown off into space once the weapon's effects begin to recede."
+	#description "	The Destabiliser also has the side effect of the target ship being thrown off into space once the weapon's effects begin to recede."
 		
 effect "destabiliser"
 	sprite "effect/destabiliser"
@@ -60,7 +60,7 @@ outfit "Engine Destabiliser Turret"
 		"firing heat" 2.3
 		"shield damage" 2.7
 		"hull damage" 2.4
-		"slowing damage" -24
+		"slowing damage" 24 #-24
 		"hit force" 62
 	description "In order to allow more slowly-turning Kaltheim ships to hold their targets within range, two Engine Destabilisers were placed on a rotating turret, resulting in a far heavier, but far more powerful, weapon."
 	
