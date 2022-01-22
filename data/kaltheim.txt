@@ -54,6 +54,7 @@ outfit "Engine Destabiliser Turret"
 		"hit effect" "destabiliser2"
 		"inaccuracy" 1.2
 		"velocity" 500
+		"turret turn" 3.
 		"lifetime" 1
 		"reload" 1
 		"firing energy" 5.67
@@ -91,6 +92,7 @@ outfit "Heat Redistribution Ray"
 		"inaccuracy" .4
 		"velocity" 590
 		"lifetime" 1
+		"turret turn" 3.
 		"reload" 1
 		"firing energy" 3.3
 		"firing heat" -1
@@ -178,6 +180,7 @@ outfit "Kelvin Turret"
 		"hit effect" "electron impact"
 		"inaccuracy" .4
 		"velocity" 500
+		"turret turn" 3.
 		"lifetime" 1
 		"reload" 1
 		"firing energy" 5

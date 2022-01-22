@@ -115,9 +115,10 @@ mission "Enclave Endgame 2"
 		personality heroic vindictive escort
 		system Innenheim
 		government Enclave
-		fleet names "republic small"
-		variant
-			"Enclave Destroyer" 4
+		fleet 
+			names "republic small"
+			variant
+				"Enclave Destroyer" 4
 	npc kill
 		personality vindictive staying
 		system Thaen
