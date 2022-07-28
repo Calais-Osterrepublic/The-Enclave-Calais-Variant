@@ -511,7 +511,7 @@ mission "Enclave Blue 2D"
 		system Innenheim
 		government Enclave
 		fleet
-			names "Enclave Capital"
+			names "republic capital"
 			variant
 				"Caesennia" 5
 	on visit
