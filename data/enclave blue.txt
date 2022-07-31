@@ -203,6 +203,9 @@ mission "Enclave Blue 1D"
 			`	You thank the officer and begin to make preparations to leave.`
 				accept
 				
+phrase "Enclave Blue 1E fleet name"
+	word
+		"R.N.S Banks"
 				
 mission "Enclave Blue 1E"
 	name "Shipbuilding supplies"
@@ -222,8 +225,10 @@ mission "Enclave Blue 1E"
 		personality timid frugal escort
 		system Whuroxla
 		fleet
+			names "Enclave Blue 1E fleet name"
 			cargo 500 "Mysterious shipbuilding supplies"
-			ship "Leatherback" "R.N.S Banks"
+			variant
+				"Leatherback"
 	on visit
 		dialog
 			`You have arrived on <planet>, but you left the <npc> behind!`
@@ -1445,3 +1450,5 @@ mission "Enclave Blue 4G"
 			`	"Goodbye indeed," Feun'ragnam says, awkwardly shaking your hand.`
 			`	(NOTE: THIS BRANCH OF THE STORYLINE IS FINISHED UNTIL v0.0.12, COMING THIS FALL)`
 				decline
+				
+event "morbosa" #placeholder so the mission works.
