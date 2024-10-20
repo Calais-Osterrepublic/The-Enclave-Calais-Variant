@@ -420,8 +420,10 @@ mission "Part 3-2"
 				`	"Fine, I'll help."`
 					goto yay
 				`	"No. I'm not risking my life for you."`
-					goto 1
+					decline
 	on accept
+		"reputation: XSZ Corporation" = -100
+	on decline
 		"reputation: XSZ Corporation" = -100
 		
 	npc kill
