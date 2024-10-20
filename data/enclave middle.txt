@@ -208,7 +208,7 @@ mission "Enclave Middle 1C"
 			`You arrive in the spaceport to find Druff co-ordinating the transfer of seemingly less important prisoners onto a squadron of Flurries. As the last of them are loaded on board, the Commodore turns to you. "Lieutenant," he says. "Good to see you alive after that last battle."`
 			choice
 				`	"You too, sir."`
-				`	:^)`
+				`	(Say nothing)`
 			`"We've got some more ships on <destination> ready to be transferred up to the front," Druff continues. "Whilst we've hopefully got a break in the fighting for a bit- seems like XSZ doesn't want this moon- I need you to go and pick them up and bring them back here to bolster the defence."`
 			choice
 				`	"Understood."`
@@ -293,7 +293,7 @@ mission "Enclave Middle 2A"
 			`You left Cathy's ship, the <npc> behind. Better take off and wait for her to arrive in the system.`
 	on fail
 		dialog
-			`Cathy's ship has been destroyed and she is now dead. Screw you mate, you should probably reload your save.`
+			`Cathy's ship has been destroyed and she is now dead. Reload your save if you want to continue the story.`
 	on complete
 			conversation
 				`When you touch down at the spaceport on Memorandum, Cathy's ship not far behind, you find that the diplomats you are meant to be picking up aren't even ready to leave yet. Looks like you've got some time to kill.`
@@ -329,7 +329,7 @@ mission "Enclave Middle 2B"
 			
 	on fail
 		dialog
-			`Cathy's ship has been destroyed and she is now dead. Screw you mate, you should probably reload your save.`
+			`Cathy's ship has been destroyed and she is now dead. Reload your save if you want to continue the story.`
 			
 			
 mission "Enclave Middle 2C-A"
@@ -357,7 +357,7 @@ mission "Enclave Middle 2C-A"
 			`	You take off and set your sights on the largest city on the planet, and the one where XSZ is headquartered. Unfortunately for you, there are some rather effective ground-to-air defence mechanisms here. You die quickly.`
 				die
 			label talk
-			`	Cathy steps off her ship, looking disgusted at democracy. "You know, I'm very tempted to just go 'screw this, let's kill some corporate muthatruckas,'" she says.`
+			`	Cathy steps off her ship, looking disgusted at democracy. "You know, I'm very tempted to just go 'screw this, let's kill some corporates,'" she says.`
 			choice
 				`	"Good idea, let's go do that."`
 					goto attack
@@ -420,7 +420,7 @@ mission "Enclave Middle 2C-A"
 			`You left Cathy's ship, the <npc> behind. Better take off and wait for her to arrive in the system.`
 	on fail
 		dialog
-			`Cathy's ship has been destroyed and she is now dead. Screw you mate, you should probably reload your save.`
+			`Cathy's ship has been destroyed and she is now dead. Reload your save if you want to continue the story.`
 			
 mission "Enclave Middle 2C-B"
 	name "Government Evacuation"
