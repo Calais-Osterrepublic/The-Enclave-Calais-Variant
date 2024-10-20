@@ -353,26 +353,26 @@ mission "Part 3-1"
 			`	Stabbing her pen on the desk, Rosalva starts questioning you in a surprisingly interrogatorial manner- "Where do your allegiances lie back at home, Captain?"`
 			choice
 				`	"I am aligned with the Free Worlds, a group of systems in the south that recently broke away from the Republic in a regrettable civil war."`
-				`	"Technically I'm with the Free Worlds since there aren't story arcs for the others yet, but secretly I've always been loyal to the Republic."`
-				`	"Technically I'm with the Free Worlds since there aren't story arcs for the others yet, but secretly I've always been loyal to the Syndicate."`
+				`	"My allegiance is towards the Republic, but I've been press-ganged into the Free Worlds Militia."`
+				`	"My allegiance is towards the Syndicate, but I've been press-ganged into the Free Worlds Militia."`
 				`	"I'm a badass independent bounty hunter who 360 noscopes pirate scrubs all day long."`
 			`	Rosalva nods, scribbling something on her paper. This time, another of the officials asks you a question. "Captain, how comfortable would you be with carrying out a number of missions of dubious legality and no ability to disclose the fact that you had done them?"`
 			choice
 				`	"I'd tell someone straight away. No matter what, if something's illegal, it's my duty to the law not to go along with it."`
-				`	"I'd be fine with that because I'm a right-wing, elitist scumbag who doesn't believe in freedom of information."`
+				`	"Where there's money to be made, there's someone willing to take up the job."`
 			`	He replies only with a knowing smirk and a few curls of messy handwriting on a page of paper.`
 			`	Now, it's Olvirsson's turn- as he speaks, you notice a few beads of sweat crawling down the side of his forehead.`
 			`	"If given access to potentially planet-devastating weapons, Captain, would you use them in the name of defense, no matter how many lives would be lost in the process?"`
 			choice
-				`	"Yes, because I'm a psychopathic nationalist who couldn't care less about other people. Somewhat like Theresa May. Or Nigel Farage."`
-				`	"No. I don't believe weapons that powerful should ever be invented at any point; hell, even nukes are bad enough."`
+				`	"Yes."`
+				`	"No."`
 			`	Olvirsson nods, seemingly satisfied, and once again, Rosalva takes the reigns of the meeting. "Captain, as you have probably caught on to by now, we are currently in the midst of a cold war with the XSZ Corporation- they control the systems from Skryydr to Maduras. As, obviously, we cannot overtly spy on their major installations, such as the inner areas of Mirrodin, or their weapons testing areas on Crackle, we need someone disconnected from our intelligence services to do it."`
 			`	"And you're assuming that would be me?" you say in response.`
 			`	"Well, yes," Rosalva replies. "We are expressly trying to stop a war here- and one of the biggest reasons for that is because it will kill thousands, potentially even millions of people if we make a stupid decision. Since unlike the vast majority of merchants, you have military experience, in addition to being entirely unrelated to us, we thought you would be the best candidate to do this, <last>."`
 			choice
-				`	"Fine. But if I die, I'm blaming you."`
+				`	"Sure. Not my first rodeo in diplomatic affairs."`
 					goto 1
-				`	"No. I don't care about your war, I never wanted to be part of it. Hell, I'm not even from this galaxy!"`
+				`	"No, I don't want to get involved."`
 			`	Rosalva shrugs. "I'm disappointed," she says. "I guess I expected more from the legendary <first> <last>." You are quickly shown out.`
 				decline
 			label 1
